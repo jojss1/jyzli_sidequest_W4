@@ -1,34 +1,18 @@
 ## Project Title
 
-GBDA302 Week 4 Example 4: layable Maze (JSON + Level class + Player class)
+GBDA302 Side Quest 4
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
+Jolin Li
 
 ---
 
 ## Description
 
-Based on example 3, creates and positions the player using preloads and loadJSON files.
-
----
-
-## Learning Goals
-
-Learning Goals:
-
-- Loads JSON levels (preload)
-- Builds Level objects
-- Creates/positions the Player
-- Handles input + level switching
-
-It is intentionally light on "details" because those are moved into:
-
-- Level.js (grid + drawing + tile meaning)
-- Player.js (position + movement rules)
+This game is a tile-based maze where the player navigates through paths using the keyboard to reach a goal tile. Each level is generated from data rather than fixed layouts, so the maze structure is built dynamically when the game starts. Reaching the goal automatically advances the player to the next level.
 
 ---
 
@@ -40,6 +24,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane and David Han but they used GenAI to write the comments.
+The code was written by Jolin Li but GenAI was used to help troubleshoot, guidance, and simplify.
 
 ---
